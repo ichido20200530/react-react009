@@ -42,7 +42,7 @@ export default class App extends Component {
       <h2>{this.state.message}</h2>
       <form onSubmit={this.doSubmit}>
         <label>
-          <span style={this.inputStyle}></span>Message:
+          <span style={this.inputStyle}>Message:</span>
           <input type="text" style={this.inputStyle}
             onChange={this.doChange}
             required pattern="[A-Za-z _,.]+" />
